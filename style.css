@@ -1,0 +1,100 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url(assets/The\ Coffee\ Jelly.jpg);
+  text-align: center;
+}
+
+/* STYLE TEXT */
+h1 
+{
+  border-width:7px;
+  border-style:solid;
+  border-color:#287EC7;
+  background-color: white;
+  color: #0d9c90;
+  padding: 0.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+p 
+{
+  font-weight: bold;
+  border-width:5px;
+  border-style:solid;
+  border-color:#287EC7;
+  background-color: white;
+  padding: 0.5em;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+h2 
+{
+  font-size: 30px;
+  border-width:7px;
+  border-style:solid;
+  border-color:#287EC7;
+  background-color: white;
+  margin-top: 2em; 
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+/* centers promotional poster at beginning */
+img {
+  border-width:7px;
+  border-style:solid;
+  border-color:#287EC7;
+  max-width: 75%;
+  max-height: 75%
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* centers the questions and answers */
+  justify-content: center;
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice 
+{
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img 
+{
+  /*height: 10em;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;*/
+  
+  width: 100%;
+  height: 100%;
+}
+
+/* STYLE BUTTON */
+button 
+{ 
+  font-size: 20px;
+  border-width:5px;
+  border-style:solid;
+  border-color:#287EC7;
+  background-color: white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+button:hover 
+{
+  background-color: pink;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10%;
+} 
